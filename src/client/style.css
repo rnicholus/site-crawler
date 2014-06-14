@@ -1,0 +1,25 @@
+.hidden {
+    display: none;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#pleaseWait {
+    text-align: center;
+    -webkit-animation: fadein 1s ease-in alternate infinite;
+    -moz-animation: fadein 1s ease-in alternate infinite;
+    animation: fadein 1s ease-in alternate infinite;
+}

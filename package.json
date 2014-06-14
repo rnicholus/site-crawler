@@ -1,0 +1,23 @@
+{
+    "author": {
+        "name": "Ray Nicholus"
+    },
+    "description": "Web site crawler",
+    "dependencies": {
+        "cheerio": "0.17.x",
+        "express": "4.4.x",
+        "request": "2.x",
+        "rsvp": "3.x"
+    },
+    "devDependencies": {
+        "grunt": "0.4.x",        
+        "grunt-contrib-jshint": "0.10.x",
+        "grunt-contrib-watch": "0.6.x",
+        "grunt-jasmine-node": "0.2.x",
+        "nock": "0.34.x",
+        "rewire": "2.x"
+    },
+    "license": "MIT",
+    "name": "node-site-crawler",
+    "version": "0.1.0"
+}
