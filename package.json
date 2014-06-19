@@ -14,7 +14,7 @@
         "grunt-contrib-jshint": "0.10.x",
         "grunt-contrib-watch": "0.6.x",
         "grunt-jasmine-node": "0.2.x",
-        "nock": "0.34.x",
+        "nock": "0.36.x",
         "rewire": "2.x"
     },
     "license": "MIT",
